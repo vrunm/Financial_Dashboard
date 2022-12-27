@@ -13,11 +13,27 @@ The app can be viewed here: [Financial Dashboard](https://vrunm-financial-dashbo
 
 **Sentiment Analysis**
 
-The RoBERTa, FinBERT and DistilBERT models were fine-tuned for sentiment analysis. The best results were obtained using the fine-tuned DistilBERT model. It achieved an Accuracy of 91.11% and an ROC-AUC Score of 0.972.
+The RoBERTa, FinBERT and DistilBERT models were fine-tuned for sentiment analysis. The best results were obtained using the fine-tuned **DistilBERT** model. It achieved an Accuracy of 91.11% and an ROC-AUC Score of 0.972.
+
+
+| Model | Accuracy | F1 | AUC |
+| ----- | ------ | -------- | ------------------ | 
+| Roberta | 0.662 | 0.656 | 0.628 |
+| FinBERT | 0.746 | 0.682 | 0.721 | 
+| DistilBERT | 0.911 | 0.914 | 0.972 |
 
 **Summarization**
 
-The T5, DistilPEGASUS and DistilBART models were fine-tuned for summarization. The best results were obtained using the fine-tuned DistilBART model. It achieved an ROUGE-L Score of 67.7%.
+The T5, DistilPEGASUS and DistilBART models were fine-tuned for summarization. The best results were obtained using the fine-tuned **DistilBART** model. It achieved an ROUGE-L Score of 67.7%.
+
+
+| Model | ROUGUE-1 | ROUGUE-2 | ROUGUE-L | ROUGUE-LSUM
+| ----- | ------ | -------- | ------------------ | ------------------|
+| T5| 32.22 | 28.5 | 31.5| 31.5 | 31.5 |
+| DistilPEGASUS | 48.32 | 34.48 |43.51| 31.50 |
+| DistilBART | 72.28 | 61.15 | 67.70 | 71 |
+
+
 
 **Identifying Important Keywords**
 RAKE NLTK was used to identify important keywords from the generated summaries.
