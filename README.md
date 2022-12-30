@@ -11,7 +11,7 @@ The Financial Dashboard for Market Intelligence has been deployed on Streamlit.
 The app can be viewed here: [Financial Dashboard](https://vrunm-financial-dashboard-app-05vytr.streamlit.app/)
 
 
-**Sentiment Analysis**
+## **Sentiment Analysis**
 
 For the sentiment analysis task, all the data was labeled using a Zero Shot Model. A local cross validation split was created by randomly sampling rows from the records of these companies.
 
@@ -24,7 +24,7 @@ The RoBERTa, FinBERT and DistilBERT models were fine-tuned for sentiment analysi
 | FinBERT | 0.746 | 0.682 | 0.721 | 
 | DistilBERT | 0.911 | 0.914 | 0.972 |
 
-**Summarization**
+## **Summarization**
 
 For the summarization task, the data of Pfizer, Costco and Meta was labeled and used. A local cross validation split was created by randomly sampling rows from the records of these companies.
 Text summarization was carried out using these three transformers models:
@@ -40,7 +40,7 @@ The T5, DistilPEGASUS and DistilBART models were fine-tuned for summarization. T
 
 
 
-**Identifying Important Keywords**
+## **Identifying Important Keywords**
 
 RAKE NLTK was used to identify important keywords from the generated summaries.
 
