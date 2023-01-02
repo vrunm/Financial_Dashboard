@@ -12,8 +12,7 @@ The app can be viewed here: [Financial Dashboard](https://vrunm-financial-dashbo
 
 
 ## **Sentiment Analysis**
-
-For the sentiment analysis task, all the data was labeled using a Zero Shot Model. A local cross validation split was created by randomly sampling rows from the records of these companies.
+A local cross validation split was created by randomly sampling rows from the records of these companies.
 
 The RoBERTa, FinBERT and DistilBERT models were fine-tuned for sentiment analysis. The best results were obtained using the fine-tuned **DistilBERT** model. It achieved an Accuracy of 91.11% and an ROC-AUC Score of 0.972.
 
