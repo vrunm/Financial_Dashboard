@@ -1,4 +1,4 @@
-# Financial_Dashboard
+# Financial Dashboard For Annual 10K Reports
 
 A financial dashboard that consolidates all of a business's critical observations in one place using the information obtained from the annual 10K Filings of the companies.
 The financial dashboard contains:
