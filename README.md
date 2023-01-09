@@ -10,11 +10,25 @@ The Financial Dashboard for Market Intelligence has been deployed on Streamlit.
 
 The app can be viewed here: [Financial Dashboard](https://vrunm-financial-dashboard-app-05vytr.streamlit.app/)
 
+## **Data**
+To extract the text from the SEC filing, the SEC’s ExtractorAPI was used. The API can extract any text section from 10-Q, 10-K, and 8-K SEC filings, and returns the extracted content in cleaned and standardized text or HTML format.
+The twelve companies for which the data has been collected as listed below organized by sector:
+1. Pharmaceutical:
+Abbvie, Pfizer, Merck
+2. Technology:
+Alphabet, Meta, Microsoft
+3. Retail:
+Costco
+4. Oil and Natural Gas:
+Chevron
+5. Food and Beverages:
+Coca Cola, Pepsico
 
-## **Sentiment Analysis**
-A local cross validation split was created by randomly sampling rows from the records of 12 companies across sectors like Technology,Finance,Retail and Pharma.
 The can be viewed as
 <img src="data_snap.png"> 
+
+## **Sentiment Analysis**
+A local cross validation split was created by randomly sampling rows from the records of 12 companies across sectors like Technology, Finance, Retail and Pharma.
 
 <a href="https://github.com/vrunm/Financial_Dashboard/blob/main/meta_10K.pdf" class="image fit" > A sample 10k report for Meta can be viewed here</a>
 
