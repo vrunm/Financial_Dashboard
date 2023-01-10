@@ -3,8 +3,8 @@
 A financial dashboard that consolidates all of a business's critical observations in one place using the information obtained from the annual 10K Filings of the companies.
 The financial dashboard contains:
 - **Insights and summaries** for different sections from annual corporate filings.
--**Sentiment-based score** that measures the company's performance over a certain time period.
-- Identification of **important topics** and **frequently occuring** words mentioned in the report. 
+- **Sentiment-based score** that measures the company's performance over a certain time period.
+- Identification of **Important topics** and **Frequently occuring** words mentioned in the report. 
 
 The Financial Dashboard for Market Intelligence has been deployed on Streamlit.
 
